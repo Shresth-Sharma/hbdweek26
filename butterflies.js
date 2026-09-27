@@ -1,4 +1,4 @@
-import { butterfliesBackground } from '/a.js'
+import { butterfliesBackground } from './a.js'
 
 const pc = butterfliesBackground({
   el: document.getElementById('app'),
@@ -11,7 +11,7 @@ const pc = butterfliesBackground({
     { type: 'directional', params: [0xffffff, 1], props: { position: [10, 0, 0] } }
   ],
   materialParams: { transparent: true, alphaTest: 0.5 },
-  texture: '/butterflies.png',
+  texture: './butterflies.png',
   textureCount: 4,
   wingsScale: [2, 2, 2],
   wingsWidthSegments: 16,
